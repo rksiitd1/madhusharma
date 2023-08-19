@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <title>Madhu Sharma - Artistic World</title>
+    <style>
+        body {
+            font-family: 'Raleway', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fafafa;
+            color: #333;
+        }
+
+        .header {
+            background-image: url('path/to/your/hero-image.jpg'); /* Replace with your hero image */
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        h1, h2 {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .section {
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .call-to-action a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: #fff;
+            border-radius: 5px;
+            margin: 5px;
+            text-decoration: none;
+        }
+
+        .footer {
+            background-color: #222;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .footer a {
+            color: #fff;
+        }
+
+        #scrollToTopButton {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Madhu Sharma</h1>
+        <p>Embracing Creativity and Innovation</p>
+    </div>
+    <div class="container">
+        <div class="section introduction">
+            <h2>Welcome to My Artistic World</h2>
+            <p>Join me on a journey of imagination, creativity, and passion. Explore unique masterpieces crafted with love and dedication. Be part of a world where art and innovation thrive.</p>
+        </div>
+
+        <div class="section featured-work">
+            <h2>Featured Work</h2>
+            <p>Browse through my latest collections, where each piece tells a story and evokes emotion. My art is more than mere visuals; it's an experience waiting to be shared.</p>
+        </div>
+
+        <div class="call-to-action">
+            <a href="#">Explore Gallery</a>
+            <a href="#">Join Classes</a>
+            <a href="#">Connect with Me</a>
+        </div>
+
+        <div class="section about-me">
+            <h2>About Me</h2>
+            <p>With a decade of experience in art and education, I strive to inspire and empower others through my creations. My work reflects my beliefs, values, and vision for a world enriched with art.</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        © 2023 Madhu Sharma. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a> | Contact: +91 9560600683
+    </div>
+
+    <button onclick="scrollToTop()" id="scrollToTopButton">Top</button>
+
+    <script>
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        window.onscroll = function() {
+            var button = document.getElementById('scrollToTopButton');
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                button.style.display = 'block';
+            } else {
+                button.style.display = 'none';
+            }
+        };
+    </script>
+</body>
+
+</html>
