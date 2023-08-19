@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madhu Sharma - Artistic World</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header, .footer {
+            background-color: #222;
+            color: #fff;
+            padding: 20px;
+        }
+
+        .section {
+            padding: 20px;
+        }
+
+        h1, h2 {
+            color: #444;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        .call-to-action {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .call-to-action a {
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: #fff;
+            border-radius: 5px;
+            margin: 5px;
+        }
+
+        .footer {
+            text-align: center;
+        }
+
+        #scrollToTopButton {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Transforming Imagination into Artistry: A Journey of Creation and Inspiration</h1>
+    </div>
+    <div class="container">
+        <div class="section introduction">
+            <p>Welcome to Madhu Sharma's artistic world, where creativity meets passion, innovation, and responsibility. As an accomplished artist, teacher, and environmental advocate, I, Madhu Sharma, invite you to explore a world where art transcends boundaries and ignites positive change.</p>
+        </div>
+
+        <div class="section featured-work">
+            <h2>Featured Work</h2>
+            <p>Discover how everyday materials are reborn into unique masterpieces. Embracing the beauty of recycling, I craft art that not only enchants the eye but also nurtures our planet.</p>
+        </div>
+
+        <div class="section about-me">
+            <h2>About Me</h2>
+            <p>I am Madhu Sharma, living in South Delhi, holding a diploma in commercial art and an MA in Drawing and Painting from Gwalior. My artistic journey spans over a decade, including teaching at Central School and various private institutions. My passion for art, education, and environmental stewardship drives me to create, inspire, and make a difference.</p>
+        </div>
+
+        <div class="call-to-action">
+            <a href="#">Explore Gallery</a>
+            <a href="#">Join Classes</a>
+            <a href="#">Connect with Me</a>
+        </div>
+    </div>
+
+    <div class="footer">
+        © 2023 Madhu Sharma. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a> | Contact: +91 9560600683
+    </div>
+
+    <button onclick="scrollToTop()" id="scrollToTopButton">Top</button>
+
+    <script>
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        window.onscroll = function() {
+            var button = document.getElementById('scrollToTopButton');
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                button.style.display = 'block';
+            } else {
+                button.style.display = 'none';
+            }
+        };
+    </script>
+</body>
+
+</html>
