@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header, .footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+}
+
+.section {
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #444;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.call-to-action {
+    text-align: center;
+    padding: 20px;
+}
+
+.call-to-action a {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.footer {
+    text-align: center;
+}
